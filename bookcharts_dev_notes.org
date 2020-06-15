@@ -1,0 +1,44 @@
+#+TITLE: Booksharts Development Notes
+#+AUTHOR: Christopher Carbonaro
+#+DATE: 2020-06-08
+#+TODO: TODO IN_PROGRESS | HOLD DONE
+#+TODO: CLC MLC | DONE
+
+* TODO Getting Started [0%]
+** TODO [#A] Create the project
+** TODO [#A] Create the database models and activate them
+*** TODO User information
+    - [ ] Authentication info
+    - [ ] Date joined
+    - [ ] (Maybe?) Follow and followers
+    - [ ] (Maybe?) Goodreads info
+*** TODO Chart information
+    - [ ] Creator id
+    - [ ] Date created
+    - [ ] Tags
+    - [ ] Dimensions/size
+    - [ ] Book titles
+    - [ ] Author names
+    - [ ] Open Library IDs
+* TODO [#B] Site pages [0%]
+** TODO [#A] Login page
+*** TODO Writing the view
+*** TODO Building the template
+*** TODO Writing tests
+** TODO [#A] Home page
+*** TODO Writing the view
+*** TODO Building the template
+*** TODO Writing tests
+** TODO [#B] Chart Discussion Page
+*** TODO Writing the view
+*** TODO Building the template
+*** TODO Writing tests
+** TODO [#A] Chart Creation page
+*** TODO Writing the view
+*** TODO Building the template
+    - [ ] Use the [[https://openlibrary.org/dev/docs/api/books][Open Library Books API]] to let users search for books
+    - [ ] Use the API to fetch book covers
+      - [ ] Display the covers in the search area
+      - [ ] Display the covers in the chart area
+*** TODO Writing tests
+
