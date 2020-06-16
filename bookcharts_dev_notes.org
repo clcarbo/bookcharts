@@ -7,19 +7,20 @@
 * TODO Getting Started [0%]
 ** TODO [#A] Create the project
 ** TODO [#A] Create the database models and activate them
-*** TODO User information
-    - [ ] Authentication info
-    - [ ] Date joined
-    - [ ] (Maybe?) Follow and followers
-    - [ ] (Maybe?) Goodreads info
-*** TODO Chart information
-    - [ ] Creator id
-    - [ ] Date created
-    - [ ] Tags
-    - [ ] Dimensions/size
-    - [ ] Book titles
-    - [ ] Author names
-    - [ ] Open Library IDs
+*** TODO Design the database schema
+**** TODO User information
+     - [ ] Authentication info
+     - [ ] Date joined
+     - [ ] (Maybe?) Follow and followers
+     - [ ] (Maybe?) Goodreads info
+**** TODO Chart information
+     - [ ] Creator id
+     - [ ] Date created
+     - [ ] Tags
+     - [ ] Dimensions/size
+     - [ ] Book titles
+     - [ ] Author names
+     - [ ] Open Library IDs
 * TODO [#B] Site pages [0%]
 ** TODO [#A] Login page
 *** TODO Writing the view
