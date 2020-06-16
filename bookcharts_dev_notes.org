@@ -5,35 +5,43 @@
 #+TODO: CLC MLC | DONE
 
 * TODO Getting Started [0%]
-** TODO [#A] Create the project
-** TODO [#A] Create the database models and activate them
+** IN_PROGRESS [#A] Create the database models and activate them
 *** TODO Design the database schema
 **** TODO User information
-     - [ ] Authentication info
+     - [X] Authentication info
      - [ ] Date joined
      - [ ] (Maybe?) Follow and followers
      - [ ] (Maybe?) Goodreads info
 **** TODO Chart information
-     - [ ] Creator id
+     - [ ] Creator (foreign key)
      - [ ] Date created
-     - [ ] Tags
+     - [ ] Tags (many to many)
      - [ ] Dimensions/size
-     - [ ] Book titles
-     - [ ] Author names
-     - [ ] Open Library IDs
+     - [ ] Books (many to many)
+**** TODO Tags
+**** TODO Books
+     - [ ] Title
+     - [ ] Author
+**** TODO Book cover
+     - [ ] Book (foreign key)
+     - [ ] Version
+     - [ ] OLID
 * TODO [#B] Site pages [0%]
 ** TODO [#A] Login page
 *** TODO Writing the view
 *** TODO Building the template
 *** TODO Writing tests
+*** TODO Styling the page
 ** TODO [#A] Home page
 *** TODO Writing the view
 *** TODO Building the template
 *** TODO Writing tests
+*** TODO Styling the page
 ** TODO [#B] Chart Discussion Page
 *** TODO Writing the view
 *** TODO Building the template
 *** TODO Writing tests
+*** TODO Styling the page
 ** TODO [#A] Chart Creation page
 *** TODO Writing the view
 *** TODO Building the template
@@ -42,4 +50,5 @@
       - [ ] Display the covers in the search area
       - [ ] Display the covers in the chart area
 *** TODO Writing tests
+*** TODO Styling the page
 
