@@ -1,1 +1,2 @@
 # The following patterns should be excluded from VCS:
+*.sqlite3
