@@ -4,28 +4,34 @@
 #+TODO: TODO IN_PROGRESS | HOLD DONE
 #+TODO: CLC MLC | DONE
 
-* TODO Getting Started [0%]
-** IN_PROGRESS [#A] Create the database models and activate them
-*** TODO Design the database schema
-**** TODO User information
-     - [X] Authentication info
-     - [ ] Date joined
-     - [ ] (Maybe?) Follow and followers
-     - [ ] (Maybe?) Goodreads info
-**** TODO Chart information
-     - [ ] Creator (foreign key)
-     - [ ] Date created
-     - [ ] Tags (many to many)
-     - [ ] Dimensions/size
-     - [ ] Books (many to many)
-**** TODO Tags
-**** TODO Books
-     - [ ] Title
-     - [ ] Author
-**** TODO Book cover
-     - [ ] Book (foreign key)
-     - [ ] Version
-     - [ ] OLID
+* TODO [#A] Create a working prototype of the chart creation page
+** TODO Write a simple HTML page to test the JavaScript
+** TODO Write the Javascript
+   - [ ] Get the search results
+   - [ ] Show the search results
+   - [ ] Make the results drag-able
+   - [ ] Show the selection in the final space
+* IN_PROGRESS [#A] Database Work
+** TODO Design the database schema
+*** TODO User information
+    - [X] Authentication info
+    - [ ] Date joined
+    - [ ] (Maybe?) Follow and followers
+    - [ ] (Maybe?) Goodreads info
+*** TODO Chart information
+    - [ ] Creator (foreign key)
+    - [ ] Date created
+    - [ ] Tags (many to many)
+    - [ ] Dimensions/size
+    - [ ] Books (many to many)
+*** TODO Tags
+*** TODO Books
+    - [ ] Title
+    - [ ] Author
+*** TODO Book cover
+    - [ ] Book (foreign key)
+    - [ ] Version
+    - [ ] OLID
 * TODO [#B] Site pages [0%]
 ** TODO [#A] Login page
 *** TODO Writing the view
