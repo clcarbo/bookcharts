@@ -1,0 +1,4 @@
+* bookcharts
+This is the source code for a django application designed for creating and sharing book recommendations.
+
+At the moment, this project has been placed on hold to work on my GroupMe bot, Checker. However, I intend to return to this once that project is completed.
